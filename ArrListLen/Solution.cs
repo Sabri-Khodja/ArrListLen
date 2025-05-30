@@ -4,7 +4,13 @@
     {
         public int solution(int[] A)
         {
-            return 4;
+            int index = 0, length = 1;
+            while (A[index] != -1)
+            {
+                index = A[index];
+                length++;
+            }
+            return length;
         }
     }
 }
