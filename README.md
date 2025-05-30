@@ -24,9 +24,9 @@ the second node is located at index 1 and has a value of 4;
 the third node is located at index 4 and has a value of 2;
 the fourth node is located at index 2 and has a value of −1.
 Write a function:
-
+<pre>csharp<br>
 class Solution { public int solution(int[] A); }
-
+<be></pre>
 that, given a non-empty array A consisting of N integers, returns the length of the list constructed from A in the above manner.
 
 For example, given array A such that:
